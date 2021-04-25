@@ -18,6 +18,7 @@ main {
 }
 
 .studgallery__image {
+  display: cover;
   height: 4.5em;
   width: 5em;
   border-radius: 1rem;
@@ -49,10 +50,10 @@ main {
   align-self: center;
   font-family: verdana;
   font-weight: bold;
-  font-size: 0.5rem;
-  border: 0.1rem solid lightgray;
+  font-size: 0.55rem;
+  line-height: 1.5;
   border-radius: 1rem;
-  padding: 1.3rem 0;
+  padding: 0.1rem 0.1rem;
 }
 
 .studgallery__text--inactive {
