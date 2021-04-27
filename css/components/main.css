@@ -218,3 +218,10 @@ main {
   grid-column: 4;
   grid-row: 4;
 }
+
+.pageviews {
+  background: hotpink;
+  border: 1 black solid;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
