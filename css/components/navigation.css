@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__navelement {
+  color: #193251;
+  font-size: 50px;
+  text-decoration: none;
+}
