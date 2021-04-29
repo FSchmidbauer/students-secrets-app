@@ -220,8 +220,15 @@ main {
 }
 
 .pageviews {
-  background: hotpink;
-  border: 1 black solid;
-  padding: 2rem;
+  background-color: #fe5a35;
+  border: 0.1rem black solid;
+  padding: 0.1rem 2rem;
+  max-width: 20rem;
   margin-bottom: 2rem;
+}
+
+.pageviews__content {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
 }
