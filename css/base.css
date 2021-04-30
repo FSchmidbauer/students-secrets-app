@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 .body {
@@ -10,7 +11,6 @@
 
 .header {
   z-index: 100;
-  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -29,9 +29,11 @@
 .header__apptitle {
   color: white;
   font-size: 2rem;
+  padding: 1rem;
 }
 
 .header__description {
   color: #193251;
   font-size: 1.25rem;
+  padding-bottom: 1rem;
 }
