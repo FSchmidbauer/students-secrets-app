@@ -1,8 +1,7 @@
 main {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  max-width: 25rem;
-  align-content: center;
+  max-width: 24rem;
   text-align: center;
   margin: 0 auto;
 }
@@ -12,8 +11,6 @@ main {
   flex-flow: column wrap;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  justify-content: center;
-  align-items: center;
   column-gap: 0.5rem;
   row-gap: 0.5rem;
   border: 0.2rem solid #193251;
@@ -224,9 +221,7 @@ main {
 }
 
 .pageviews {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
+  padding: 0rem 5rem;
 }
 
 .pageviews__box {

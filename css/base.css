@@ -4,6 +4,8 @@
 }
 
 .body {
+  justify-content: center;
+  align-content: center;
   text-align: center;
   font-family: verdana;
   line-height: 1.5;
