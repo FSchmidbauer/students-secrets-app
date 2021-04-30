@@ -1,0 +1,31 @@
+.header {
+  align-items: center;
+  background: #fe5a35;
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 32.16px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header__logo {
+  display: block;
+  width: 150px;
+  margin-top: 2.1rem;
+}
+
+.header__apptitle {
+  color: #193251;
+  font-size: 3rem;
+  margin: 32.16px 0 0;
+}
+
+.header__description {
+  color: #193251;
+  font-size: 1.25rem;
+  margin: 0 0 15px;
+}
