@@ -1,18 +1,19 @@
 .footer__nav {
+  z-index: 100;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
   background-color: #fe5a35;
-  bottom: 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 100%;
-  padding: 3rem 2rem 2rem;
-  position: fixed;
 }
 
 .footer__navelement {
-  color: #193251;
+  color: white;
+  font-weight: bold;
   font-size: 1rem;
   text-decoration: none;
 }

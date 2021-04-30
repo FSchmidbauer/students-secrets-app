@@ -1,9 +1,10 @@
 main {
-  justify-content: center;
-  font-family: verdana;
-  text-align: center;
+  padding-top: 13rem;
+  padding-bottom: 2rem;
   max-width: 25rem;
-  line-height: 1.5;
+  align-content: center;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .studgallery {
@@ -15,7 +16,7 @@ main {
   align-items: center;
   column-gap: 0.5rem;
   row-gap: 0.5rem;
-  border: 0.5rem solid lightgray;
+  border: 0.2rem solid #193251;
   border-radius: 2rem;
   padding: 0.5rem 1rem;
 }
@@ -51,9 +52,11 @@ main {
 .studgallery__text {
   align-self: center;
   font-weight: bold;
-  font-size: 0.55rem;
+  font-size: 0.7rem;
   border-radius: 1rem;
   padding: 0rem 0.1rem;
+  color: #fe5a35;
+  line-height: 1.1;
 }
 
 .studgallery__text--inactive {
@@ -226,7 +229,7 @@ main {
 }
 
 .pageviews__box {
-  border: 0.5rem solid #fe5a35;
+  border: 0.2rem solid #193251;
   border-radius: 1rem;
   padding: 0.1rem 0.1rem;
   margin-bottom: 2rem;
@@ -235,6 +238,7 @@ main {
 .pageviews__content {
   font-weight: bold;
   font-size: 2rem;
+  color: #fe5a35;
 }
 
 .thanks__box {
@@ -242,7 +246,7 @@ main {
   flex-flow: column nowrap;
   grid-template-columns: 1fr 1fr;
   column-gap: 0.5rem;
-  border: 0.5rem solid lightgray;
+  border: 0.2rem solid #193251;
   border-radius: 2rem;
   padding: 1rem;
   justify-items: center;
@@ -279,9 +283,11 @@ main {
 .thanks__boxtext {
   align-self: center;
   font-weight: bold;
-  font-size: 0.55rem;
+  font-size: 0.7rem;
   border-radius: 1rem;
   padding: 0rem 3rem;
+  color: #fe5a35;
+  line-height: 1.1;
 }
 
 .thanks__boxtext--inactive {

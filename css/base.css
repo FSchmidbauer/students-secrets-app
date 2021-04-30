@@ -1,31 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  text-align: center;
+  font-family: verdana;
+  line-height: 1.5;
+}
+
 .header {
-  align-items: center;
-  background: #fe5a35;
-  border: none;
-  border-radius: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 0 32.16px;
+  z-index: 100;
   position: fixed;
   top: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
+  background: #fe5a35;
+  text-align: center;
 }
 
 .header__logo {
-  display: block;
-  width: 150px;
-  margin-top: 2.1rem;
+  background-color: white;
+  padding: 0.5rem;
+  width: 8rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
 }
 
 .header__apptitle {
-  color: #193251;
-  font-size: 3rem;
-  margin: 32.16px 0 0;
+  color: white;
+  font-size: 2rem;
 }
 
 .header__description {
   color: #193251;
   font-size: 1.25rem;
-  margin: 0 0 15px;
 }
