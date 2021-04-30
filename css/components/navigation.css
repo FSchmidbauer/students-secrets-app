@@ -1,15 +1,18 @@
 .footer__nav {
   align-items: center;
   background-color: #fe5a35;
+  bottom: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  width: 100%;
   padding: 3rem 2rem 2rem;
+  position: fixed;
 }
 
 .footer__navelement {
   color: #193251;
-  font-size: 50px;
+  font-size: 1rem;
   text-decoration: none;
 }

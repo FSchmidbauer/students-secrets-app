@@ -1,13 +1,15 @@
 .header {
-  display: flex;
-  flex-direction: column;
-  background: #fe5a35;
   align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin: 0 0 32.16px;
+  background: #fe5a35;
   border: none;
   border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 32.16px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .header__logo {
