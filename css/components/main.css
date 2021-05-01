@@ -1,4 +1,4 @@
-main {
+.mainclass {
   padding-top: 2rem;
   padding-bottom: 2rem;
   max-width: 25rem;
@@ -310,4 +310,8 @@ main {
 .miriam__text {
   grid-column: 2;
   grid-row: 1;
+}
+
+.hidden {
+  display: none;
 }
